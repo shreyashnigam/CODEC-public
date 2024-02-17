@@ -9,7 +9,7 @@ In this project, we aimed to alleviate the problem of concussion in football by 
 
 We developed an end-to-end pipeline, CODEC, which has the ability to perform single shot detection of football gametape and produces real time classification of concussion hits as output.
 
-To achieve these results, and with the goal of further productionalizing the concept, we decided to use the best available object detection algorithm on the market, YOLOv3 (extra credit for using our instructor's invention?).
+To achieve these results, and with the goal of further productionalizing the concept, we decided to use the best available object detection algorithm on the market, YOLOv3.
 
 The original YOLO algorithm was authored in C, but for this project, we used an adapted python version, along with tensorflow and openCV. The model was trained on over 800 samples of video footage.
 
