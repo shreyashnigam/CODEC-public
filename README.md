@@ -71,9 +71,7 @@ This part was done using a python script and openCV to take in an image/video an
 
 We used mean average precision (mAP) as our evalutation metric. Most state of the art object detection models use this metric for evaluation purposes, making us confident in its ability to judge model performance accurately. 
 
-![Precision vs Recall](data/concussion.png)
-
-The graph below charts precision vs recall over multiple images. We use this calculate AP by finding the area under the precision-recall curve. We ended up with concussion AP of 41.58%. 
+Currently, we can acheive an mAP of 71.58%
 
 ![False positives and true positives over sample](data/detection-results-info.png) 
 
